@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>I felt a Funeral, in my Brain, (340)</title>
+            <author>Dickinson, Emily</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>LIT 2000 Course at USF</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>02-10-2020</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>From poetryfoundation.org</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>I felt a Funeral, in my Brain</head>
+         <lg type="stanza" n="1">
+            <lg type="quatrain" rhyme="abcb">
+               <l met="-+ | -+ | -+ | -+"> 
+                  <seg type="foot">I felt</seg>
+                  <seg type="foot">a <seg ana="finality">Fune</seg>
+                  <seg type="foot">ral</seg> in</seg>
+                  <seg type="foot">my <rhyme label="a">Brain</rhyme>,</seg>
+               </l>
+               <l met="-+ | -+ | -+">
+                  <seg type="foot">And <seg ana="despair">Mourn</seg>
+                  <seg type="foot">ers</seg> to</seg>
+                  <seg type="foot">and <rhyme label="b">fro</rhyme></seg>
+               </l>
+               <l met="-+ | -+ | -+ | -+">
+                  <seg type="foot">Kept tread</seg>
+                  <seg type="foot">ing - tread</seg>
+                  <seg type="foot">ing - till</seg>
+                  <seg type="foot">it <rhyme label="c">seemed</rhyme></seg>
+               </l>
+               <l met="-+ | -+ | -+">
+                  <seg type="foot">That <seg ana="lossOfSanity">Sense</seg></seg>
+                  <seg type="foot">was break</seg>
+                  <seg type="foot">ing <rhyme label="b">through - </rhyme>-</seg>
+               </l>
+            </lg>
+         </lg>
+         <lg type="stanza" n="2">
+            <lg type="quatrain" rhyme="abcb">
+               <l met="-+ | -+ | -+">
+                  <seg type="foot">And when</seg>
+                  <seg type="foot">they all</seg>
+                  <seg type="foot">were <rhyme label="a"><seg ana="formality">seated</seg></rhyme>,</seg>
+               </l>
+               <l met="-+ | -+ | -+">
+                  <seg type="foot">A Serv</seg>
+                  <seg type="foot">ice, like</seg>
+                  <seg type="foot">a <rhyme label="b"><seg ana="formality">Drum</seg></rhyme> - </seg>
+               </l>
+               <l met="-+ | -+ | -+ | -+">
+                  <seg type="foot">Kept beat</seg>
+                  <seg type="foot">ing - <seg ana="loss of sanity">beat</seg>
+                  <seg type="foot">ing</seg> - till</seg>
+                  <seg type="foot">I <rhyme label="c">thought</rhyme></seg>
+               </l>
+               <l met="-+ | -+ | -+">
+                  <seg type="foot">My mind</seg>
+                  <seg type="foot">was go</seg>
+                  <seg type="foot">ing <rhyme label="b"><seg ana="loss of sanity">numb</seg></rhyme> - </seg>
+               </l>
+            </lg>      
+         </lg>
+         <lg type="stanza" n="3">
+            <lg type="quatrain" rhyme="abcb">
+               <l met="-+ | -+ | -+ | -+">
+                  <seg type="foot">And then</seg>
+                  <seg type="foot">I heard</seg>
+                  <seg type="foot">them lift</seg>
+                  <seg type="foot">a <rhyme label="a"><seg ana="finality">Box</seg></rhyme></seg>
+               </l>
+               <l met="-+ | -+ | -+ | -+">
+                  <seg type="foot">And creak</seg>
+                  <seg type="foot">across</seg>
+                  <seg type="foot">my <rhyme label="b"><seg ana="despair">Soul</seg></rhyme></seg>
+               </l>
+               <l met="-+ | -+ | -+ | -+">
+                  <seg type="foot">With those</seg>
+                  <seg type="foot">same Boots</seg>
+                  <seg type="foot">of Lead,</seg>
+                  <seg type="foot"><rhyme label="c">again</rhyme>,</seg>
+               </l>
+               <l met="-+ | -+ | -+">
+                  <seg type="foot">Then Space - </seg>
+                  <seg type="foot">began</seg>
+                  <seg type="foot">to <rhyme label="b">toll</rhyme>,</seg>
+               </l>
+            </lg>
+         </lg>
+         <lg type="stanza" n="4">
+            <lg type="quatrain" rhyme="abcb"> 
+               <l met="-+ | -+ | -+ | -+">
+                  <seg type="foot">As all</seg>
+                  <seg type="foot">the <seg ana="finality">Heav</seg>
+                  <seg type="foot">ens</seg> were</seg>
+                  <seg type="foot">a <rhyme label="a">Bell</rhyme>,</seg>
+               </l>
+               <l met="-+ | -+ | -+">
+                  <seg type="foot">And Be</seg>
+                  <seg type="foot">ing, but</seg>
+                  <seg type="foot">an <rhyme label="b">Ear</rhyme>,</seg>
+               </l>
+               <l met="-+ | -+ | -+ | -+">
+                  <seg type="foot">And I,</seg>
+                  <seg type="foot">and <seg ana="isolation">Si</seg>
+                  <seg type="foot">lence</seg>, some</seg>
+                  <seg type="foot">strange <rhyme label="c">Race</rhyme>,</seg>
+               </l>
+               <l met="++ | -+ | -+">
+                  <seg type="foot">Wrecked, <seg ana="isolation">so</seg>
+                  <seg type="foot">litar</seg>
+                  <seg type="foot">y,</seg> <rhyme label="b">here</rhyme> - </seg>
+               </l>
+               </l>                   
+         </lg>
+            </lg>
+        <lg type="stanza" n="5">
+           <lg type="quatrain" rhyme="abcd">
+              <l met="-+ | -+ | -+ | -+">
+                 <seg type="foot">And then</seg>
+                 <seg type="foot">a Plank</seg>
+                 <seg type="foot">in <seg ana="loss of sanity">Rea</seg>
+                 <seg type="foot">son</seg>, <rhyme label="a">broke</rhyme>,</seg>
+              </l>
+              <l met="-+ | -+ | -+">
+                 <seg type="foot">And I</seg>
+                 <seg type="foot">dropped down,</seg>
+                 <seg type="foot">and <rhyme label="b">down</rhyme> - </seg>
+              </l>
+              <l met="-+ | -+ | -+ | -+">
+                 <seg type="foot">And hit</seg>
+                 <seg type="foot">a World,</seg>
+                 <seg type="foot">at eve</seg>
+                 <seg type="foot">ry <rhyme label="c"><seg ana="isolation">plunge</seg></rhyme>,</seg>
+              </l>
+              <l met="-+ | -+ | -+">
+                 <seg type="foot">And <seg ana="finality">Fin</seg>
+                 <seg type="foot">ished</seg> know</seg>
+                 <seg type="foot">ing - <rhyme label="d">then</rhyme> - </seg>
+              </l>
+           </lg>
+        </lg>
+      </body>
+   </text>
+</TEI> 
